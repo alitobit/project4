@@ -9,19 +9,22 @@
 using namespace std;
 
 bool codeValidate();
-void machine_selection();
+void machine_selection(fstream& file,fstream& list);
 
 Inventory read;
 
 int main(){
 
-fstream file;
+fstream file, list;
 file.open("products.txt");
 
-	codeValidate();
-	machine_selection();
 
-	read.readIntoVec(file);
+
+	codeValidate();
+	machine_selection(file,list);
+
+	Inventory(file);
+
 
 	system("pause");
 
@@ -47,14 +50,14 @@ bool codeValidate(){
 
 }
 
-void machine_selection() {
+void machine_selection(fstream& file, fstream& list) {
 	string machine;
 	Machine selected_Machine;
 	cout << "Select a  machine ---> ";
 	
 	cin >> machine;
 
-	
-	selected_Machine.selected(machine);
+	selected_Machine.selected(machine, file, list);
+
 	
 } 
