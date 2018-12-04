@@ -1,9 +1,9 @@
-#ifndef m_100C_H
-#define m_100C_H
+#ifndef m100C_H
+#define m100C_H
 
 using namespace std;
 
-class m_100C
+class m100C
 
 {
 private:
