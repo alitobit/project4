@@ -16,7 +16,7 @@ private:
     vector<int> quantity;
 	vector<Product> items;
 	//functions
-	void readIntoVec(fstream&);
+	void readIntoVec(fstream& file);
 
 public: 
 
@@ -24,7 +24,7 @@ public:
 
 	Inventory(fstream&);
 
-	void display_info();
+
 
 };
 
