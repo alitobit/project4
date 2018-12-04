@@ -22,6 +22,13 @@ void Product::Product::set_ID(string num) {
 	id = num;
 }
 
+void Product::Product::set_Quantity(const int& qt) {
+
+	current_quantity = qt;
+	initial_quantity = qt;
+
+}
+
 void Product::Product::set_price(int num) {
 
 	price = num;
@@ -32,12 +39,7 @@ void Product::Product::set_Items(string str) {
 	name = str;
 }
 
-void Product::Product::set_Quantity(const int& qt) {
 
-	current_quantity = qt;
-	initial_quantity = qt;
-
-}
 void Product::Product::set_maxQuantity(int max){
 
 	max_quantity = max;
@@ -68,7 +70,7 @@ int Product::get_maxQuantity()
 	return 0;
 }
 
-int Product::get_initial_Quanoty()
+int Product::get_initial_Quantity()
 {
 	return 0;
 }
