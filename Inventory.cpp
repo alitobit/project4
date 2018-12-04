@@ -17,6 +17,8 @@ Inventory::Inventory()
 	items.push_back(item);
 }
 
+
+
 Inventory::Inventory(fstream& file)
 {
 	readIntoVec(file);
@@ -39,8 +41,8 @@ void Inventory::Inventory::readIntoVec(fstream& file)
 		Product item;// (name, id, price);
 		item.set_ID(id);
 		item.set_Quantity(amount);
-		item.set_Price(price);
-		items.set_
+		item.set_price(price);
+		item.set_Items(name);
 
 		
 		//item.push_back(item);
@@ -50,9 +52,6 @@ void Inventory::Inventory::readIntoVec(fstream& file)
 	//file.close();
 }
 
-void Inventory::Inventory::display_info(){
 
-
-}
 
 
