@@ -1,9 +1,11 @@
 #ifndef Machine_H
 #define Machine_H
+#include<string>
+#include<iomanip>
 
 using namespace std;
 
-class Machine:public Inventory
+class Machine
 {
 
 private:
@@ -18,8 +20,9 @@ private:
 public:
 
 	void machine();
-	
-	void selected(string&);
+
+	void selected(string & machine, fstream & file, fstream & list);
+
 
 };
 #endif
