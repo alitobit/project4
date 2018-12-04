@@ -1,0 +1,23 @@
+1000 20  35 chocolate chips
+1034 10  50 candy bar
+1100 17  75 cookies
+1123 25  60 brownie
+1210  8 165 protein bar
+1283 50  60 coke can
+2180 80  80 coke bottle
+3026 30  60 diet coke can
+3629 20  80 diet coke bottle
+3649 15  95 12 oz orange juice
+4051 30  75 8 oz orange juice
+4211 25  65 apple juice
+5318 25 100 gatorade
+5336 50  60 regular coffee
+5454 40  85 large coffee
+5573 30  60 decaff coffee
+5982 40  80 hot chocolate
+6155 25 125 latte
+6626 25 125 cappuccino
+6774 10 300 ham sandwich
+6869  3 275 egg sandwich
+6879  5 325 tuna sandwich
+7555 20 200 healthy salad
