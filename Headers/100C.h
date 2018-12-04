@@ -1,9 +1,25 @@
-#ifndef "100C_H"
-#define "100C_H"
+#ifndef m_100C_H
+#define m_100C_H
 
-class 100C
+using namespace std;
+
+class m_100C
 
 {
+private:
+
+	int cardNumber;
+
+public:
+
+	m_100C();
+	
+	bool attempt();
+
+	bool verifyCard(const string& cardNo);
+
+
+
 
 };
 #endif
