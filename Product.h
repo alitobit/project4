@@ -24,7 +24,7 @@ public:
 
 	Product(string new_name, string new_id, int new_price);
     //SETTERS
-	void set_ID(int);
+	void set_ID(string);
 
 	void set_ID(string num);
 
@@ -48,6 +48,7 @@ public:
 
 	int get_maxQuantity();
 
-	int get_initial_Quanoty();
+	int get_initial_Quantity();
+
 };
 #endif
