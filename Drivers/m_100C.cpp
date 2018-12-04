@@ -1,18 +1,16 @@
 #include<iostream>
 #include"string"
-#include "m_100C.h"
+#include "m100C.h"
 
 using namespace std;
 
-m_100C::m_100C()
+m100C::m100C()
 {
 	cardNumber = 0;
 }
 
-bool m_100C::m_100C::verifyCard(const string & cardNo)
+bool m100C::m100C::verifyCard(const string & cardNo)
 {
-
-
 
 	int nDigits = cardNo.length();
 
@@ -33,9 +31,9 @@ bool m_100C::m_100C::verifyCard(const string & cardNo)
 	return(nSum % 10 == 0);
 }
 
-bool m_100C::attempt()
+bool m100C::attempt()
 {
-	m_100C obj;
+	m100C obj;
 
 	int attempt = 0;
 
